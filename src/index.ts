@@ -1,2 +1,2 @@
 export * from './version1';
-export { ImageSetsFactory } from './build/ImageSetsFactory';
+export { ImageSetClientFactory } from './build/ImageSetsClientFactory';

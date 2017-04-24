@@ -81,7 +81,7 @@ client.createImageSet(
     { 
         title: 'Cars',
         tags: ['car', 'cars', 'cartoon'],
-        pic_ids: ['111', '222', '333']
+        pics: [{ id: '111' }, { id: '222' }, { id: '333' }]
     },
     function (err, imageset) {
         ...

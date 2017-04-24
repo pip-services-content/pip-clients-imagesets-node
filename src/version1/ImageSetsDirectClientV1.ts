@@ -8,7 +8,7 @@ import { DirectClient } from 'pip-services-net-node';
 
 import { ImageSetV1 } from './ImageSetV1';
 import { IImageSetsClientV1 } from './IImageSetsClientV1';
-//import { IImageSetsBusinessLogic } from 'pip-services-imagesets-node';
+//import { IImageSetsController } from 'pip-services-imagesets-node';
 
 export class ImageSetsDirectClientV1 extends DirectClient<any> implements IImageSetsClientV1 {
             

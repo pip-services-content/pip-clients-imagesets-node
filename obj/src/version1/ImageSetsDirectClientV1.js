@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const pip_services_commons_node_1 = require("pip-services-commons-node");
 const pip_services_commons_node_2 = require("pip-services-commons-node");
 const pip_services_net_node_1 = require("pip-services-net-node");
-//import { IImageSetsBusinessLogic } from 'pip-services-imagesets-node';
+//import { IImageSetsController } from 'pip-services-imagesets-node';
 class ImageSetsDirectClientV1 extends pip_services_net_node_1.DirectClient {
     constructor(config) {
         super();

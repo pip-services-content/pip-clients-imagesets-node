@@ -4,6 +4,6 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./version1"));
-var ImageSetsFactory_1 = require("./build/ImageSetsFactory");
-exports.ImageSetsFactory = ImageSetsFactory_1.ImageSetsFactory;
+var ImageSetsClientFactory_1 = require("./build/ImageSetsClientFactory");
+exports.ImageSetClientFactory = ImageSetsClientFactory_1.ImageSetClientFactory;
 //# sourceMappingURL=index.js.map
