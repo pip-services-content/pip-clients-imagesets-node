@@ -11,7 +11,7 @@ import { IImageSetsClientV1 } from './IImageSetsClientV1';
 export class ImageSetsHttpClientV1 extends CommandableHttpClient implements IImageSetsClientV1 {
 
     constructor(config?: any) {
-        super('imagesets');
+        super('v1/imagesets');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
