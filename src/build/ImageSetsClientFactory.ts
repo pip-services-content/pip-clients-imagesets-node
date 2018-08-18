@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { ImageSetsDirectClientV1 } from '../version1/ImageSetsDirectClientV1';
 import { ImageSetsHttpClientV1 } from '../version1/ImageSetsHttpClientV1';

@@ -4,7 +4,7 @@ import { Descriptor } from 'pip-services-commons-node';
 import { FilterParams } from 'pip-services-commons-node';
 import { PagingParams} from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { DirectClient } from 'pip-services-net-node';
+import { DirectClient } from 'pip-services-rpc-node';
 
 import { ImageSetV1 } from './ImageSetV1';
 import { IImageSetsClientV1 } from './IImageSetsClientV1';
