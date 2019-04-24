@@ -1,6 +1,6 @@
 let process = require('process');
 
-import { ConfigParams } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { ImageSetsClientFixtureV1 } from './ImageSetsClientFixtureV1';
 import { ImageSetsLambdaClientV1 } from '../../src/version1/ImageSetsLambdaClientV1';

@@ -2,7 +2,7 @@ let _ = require('lodash');
 let async = require('async');
 let assert = require('chai').assert;
 
-import { MultiString } from 'pip-services-commons-node';
+import { MultiString } from 'pip-services3-commons-node';
 
 import { IImageSetsClientV1 } from '../../src/version1/IImageSetsClientV1';
 import { ImageSetV1 } from '../../src/version1/ImageSetV1';

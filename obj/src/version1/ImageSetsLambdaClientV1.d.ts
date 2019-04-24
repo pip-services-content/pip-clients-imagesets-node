@@ -1,7 +1,7 @@
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
-import { DataPage } from 'pip-services-commons-node';
-import { CommandableLambdaClient } from 'pip-services-aws-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
+import { DataPage } from 'pip-services3-commons-node';
+import { CommandableLambdaClient } from 'pip-services3-aws-node';
 import { ImageSetV1 } from './ImageSetV1';
 import { IImageSetsClientV1 } from './IImageSetsClientV1';
 export declare class ImageSetsLambdaClientV1 extends CommandableLambdaClient implements IImageSetsClientV1 {
