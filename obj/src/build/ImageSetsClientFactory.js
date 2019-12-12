@@ -11,8 +11,8 @@ class ImageSetsClientFactory extends pip_services3_components_node_1.Factory {
         this.registerAsType(ImageSetsClientFactory.HttpClientV1Descriptor, ImageSetsHttpClientV1_1.ImageSetsHttpClientV1);
     }
 }
+exports.ImageSetsClientFactory = ImageSetsClientFactory;
 ImageSetsClientFactory.Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-imagesets', 'factory', 'default', 'default', '1.0');
 ImageSetsClientFactory.DirectClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-imagesets', 'client', 'direct', 'default', '1.0');
 ImageSetsClientFactory.HttpClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-imagesets', 'client', 'http', 'default', '1.0');
-exports.ImageSetsClientFactory = ImageSetsClientFactory;
 //# sourceMappingURL=ImageSetsClientFactory.js.map
